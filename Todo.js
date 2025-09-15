@@ -11,7 +11,7 @@ function addTask(){
      cb.type="checkbox";
 
      let delbtn =document.createElement("button");
-     delbtn.innerText="delete";
+     delbtn.innerText="delete task";
 
      ul.append(li);
      li.innerText=task;
